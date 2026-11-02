@@ -17,4 +17,11 @@ def preenche_frota(frota, nome_navio, linha, coluna, sentido, tamanho):
 
     return frota
 
+def faz_jogada(tabuleiro,linha,coluna):
+    if tabuleiro[linha][coluna] == 1:
+        tabuleiro[linha][coluna]
+    else:
+        tabuleiro[linha][coluna]
+
+    return tabuleiro
 
